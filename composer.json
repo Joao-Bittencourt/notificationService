@@ -1,0 +1,22 @@
+{
+    "name": "joao_bittencourt/notification_service",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "notificationService\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "notificationService\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.5.0 || ^9.3"
+    }
+}
+
