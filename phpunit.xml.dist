@@ -12,7 +12,7 @@
   </coverage>
   <testsuites>
     <testsuite name="Sintegra Test Suite">
-      <directory>src/tests</directory>
+      <directory>tests/</directory>
     </testsuite>
   </testsuites>
   <logging>
